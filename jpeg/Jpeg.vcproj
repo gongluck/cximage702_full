@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="Windows-1252"?>
 <VisualStudioProject
 	ProjectType="Visual C++"
-	Version="8.00"
+	Version="9.00"
 	Name="jpeg"
 	ProjectGUID="{818753F2-DBB9-4D3B-898A-A604309BE470}"
 	Keyword="MFCProj"
+	TargetFrameworkVersion="131072"
 	>
 	<Platforms>
 		<Platform
@@ -41,6 +42,80 @@
 			/>
 			<Tool
 				Name="VCMIDLTool"
+			/>
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;UNICODE;_CRT_SECURE_NO_DEPRECATE"
+				StringPooling="true"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="true"
+				PrecompiledHeaderFile=".\Unicode_Release/Jpeg.pch"
+				AssemblerListingLocation=".\Unicode_Release/"
+				ObjectFile=".\Unicode_Release/"
+				ProgramDataBaseFileName=".\Unicode_Release/"
+				WarningLevel="3"
+				SuppressStartupBanner="true"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				Culture="2057"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile=".\Unicode_Release\Jpeg.lib"
+				SuppressStartupBanner="true"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\Unicode_Release/Jpeg.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Unicode Release|x64"
+			OutputDirectory="$(PlatformName)\$(ConfigurationName)"
+			IntermediateDirectory="$(PlatformName)\$(ConfigurationName)"
+			ConfigurationType="4"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="1"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				TargetEnvironment="3"
 			/>
 			<Tool
 				Name="VCCLCompilerTool"
@@ -162,223 +237,6 @@
 			/>
 		</Configuration>
 		<Configuration
-			Name="Debug|Win32"
-			OutputDirectory=".\Debug"
-			IntermediateDirectory=".\Debug"
-			ConfigurationType="4"
-			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
-			UseOfMFC="2"
-			ATLMinimizesCRunTimeLibraryUsage="false"
-			>
-			<Tool
-				Name="VCPreBuildEventTool"
-			/>
-			<Tool
-				Name="VCCustomBuildTool"
-			/>
-			<Tool
-				Name="VCXMLDataGeneratorTool"
-			/>
-			<Tool
-				Name="VCWebServiceProxyGeneratorTool"
-			/>
-			<Tool
-				Name="VCMIDLTool"
-			/>
-			<Tool
-				Name="VCCLCompilerTool"
-				Optimization="0"
-				PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE"
-				RuntimeLibrary="3"
-				PrecompiledHeaderFile=".\Debug/Jpeg.pch"
-				AssemblerListingLocation=".\Debug/"
-				ObjectFile=".\Debug/"
-				ProgramDataBaseFileName=".\Debug/"
-				WarningLevel="3"
-				SuppressStartupBanner="true"
-				DebugInformationFormat="4"
-			/>
-			<Tool
-				Name="VCManagedResourceCompilerTool"
-			/>
-			<Tool
-				Name="VCResourceCompilerTool"
-				PreprocessorDefinitions="_DEBUG"
-				Culture="2057"
-			/>
-			<Tool
-				Name="VCPreLinkEventTool"
-			/>
-			<Tool
-				Name="VCLibrarianTool"
-				OutputFile=".\Debug\Jpeg.lib"
-				SuppressStartupBanner="true"
-			/>
-			<Tool
-				Name="VCALinkTool"
-			/>
-			<Tool
-				Name="VCXDCMakeTool"
-			/>
-			<Tool
-				Name="VCBscMakeTool"
-				SuppressStartupBanner="true"
-				OutputFile=".\Debug/Jpeg.bsc"
-			/>
-			<Tool
-				Name="VCFxCopTool"
-			/>
-			<Tool
-				Name="VCPostBuildEventTool"
-			/>
-		</Configuration>
-		<Configuration
-			Name="Release|Win32"
-			OutputDirectory=".\Release"
-			IntermediateDirectory=".\Release"
-			ConfigurationType="4"
-			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
-			UseOfMFC="2"
-			ATLMinimizesCRunTimeLibraryUsage="false"
-			>
-			<Tool
-				Name="VCPreBuildEventTool"
-			/>
-			<Tool
-				Name="VCCustomBuildTool"
-			/>
-			<Tool
-				Name="VCXMLDataGeneratorTool"
-			/>
-			<Tool
-				Name="VCWebServiceProxyGeneratorTool"
-			/>
-			<Tool
-				Name="VCMIDLTool"
-			/>
-			<Tool
-				Name="VCCLCompilerTool"
-				Optimization="2"
-				InlineFunctionExpansion="1"
-				PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE"
-				StringPooling="true"
-				RuntimeLibrary="2"
-				EnableFunctionLevelLinking="true"
-				PrecompiledHeaderFile=".\Release/Jpeg.pch"
-				AssemblerListingLocation=".\Release/"
-				ObjectFile=".\Release/"
-				ProgramDataBaseFileName=".\Release/"
-				WarningLevel="3"
-				SuppressStartupBanner="true"
-			/>
-			<Tool
-				Name="VCManagedResourceCompilerTool"
-			/>
-			<Tool
-				Name="VCResourceCompilerTool"
-				Culture="2057"
-			/>
-			<Tool
-				Name="VCPreLinkEventTool"
-			/>
-			<Tool
-				Name="VCLibrarianTool"
-				OutputFile=".\Release\Jpeg.lib"
-				SuppressStartupBanner="true"
-			/>
-			<Tool
-				Name="VCALinkTool"
-			/>
-			<Tool
-				Name="VCXDCMakeTool"
-			/>
-			<Tool
-				Name="VCBscMakeTool"
-				SuppressStartupBanner="true"
-				OutputFile=".\Release/Jpeg.bsc"
-			/>
-			<Tool
-				Name="VCFxCopTool"
-			/>
-			<Tool
-				Name="VCPostBuildEventTool"
-			/>
-		</Configuration>
-		<Configuration
-			Name="Unicode Release|x64"
-			OutputDirectory="$(PlatformName)\$(ConfigurationName)"
-			IntermediateDirectory="$(PlatformName)\$(ConfigurationName)"
-			ConfigurationType="4"
-			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
-			UseOfMFC="2"
-			ATLMinimizesCRunTimeLibraryUsage="false"
-			CharacterSet="1"
-			>
-			<Tool
-				Name="VCPreBuildEventTool"
-			/>
-			<Tool
-				Name="VCCustomBuildTool"
-			/>
-			<Tool
-				Name="VCXMLDataGeneratorTool"
-			/>
-			<Tool
-				Name="VCWebServiceProxyGeneratorTool"
-			/>
-			<Tool
-				Name="VCMIDLTool"
-				TargetEnvironment="3"
-			/>
-			<Tool
-				Name="VCCLCompilerTool"
-				Optimization="2"
-				InlineFunctionExpansion="1"
-				PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;UNICODE;_CRT_SECURE_NO_DEPRECATE"
-				StringPooling="true"
-				RuntimeLibrary="2"
-				EnableFunctionLevelLinking="true"
-				PrecompiledHeaderFile=".\Unicode_Release/Jpeg.pch"
-				AssemblerListingLocation=".\Unicode_Release/"
-				ObjectFile=".\Unicode_Release/"
-				ProgramDataBaseFileName=".\Unicode_Release/"
-				WarningLevel="3"
-				SuppressStartupBanner="true"
-			/>
-			<Tool
-				Name="VCManagedResourceCompilerTool"
-			/>
-			<Tool
-				Name="VCResourceCompilerTool"
-				Culture="2057"
-			/>
-			<Tool
-				Name="VCPreLinkEventTool"
-			/>
-			<Tool
-				Name="VCLibrarianTool"
-				OutputFile=".\Unicode_Release\Jpeg.lib"
-				SuppressStartupBanner="true"
-			/>
-			<Tool
-				Name="VCALinkTool"
-			/>
-			<Tool
-				Name="VCXDCMakeTool"
-			/>
-			<Tool
-				Name="VCBscMakeTool"
-				SuppressStartupBanner="true"
-				OutputFile=".\Unicode_Release/Jpeg.bsc"
-			/>
-			<Tool
-				Name="VCFxCopTool"
-			/>
-			<Tool
-				Name="VCPostBuildEventTool"
-			/>
-		</Configuration>
-		<Configuration
 			Name="Unicode Debug|x64"
 			OutputDirectory="$(PlatformName)\$(ConfigurationName)"
 			IntermediateDirectory="$(PlatformName)\$(ConfigurationName)"
@@ -451,6 +309,78 @@
 			/>
 		</Configuration>
 		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory=".\Debug"
+			IntermediateDirectory=".\Debug"
+			ConfigurationType="4"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+			/>
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="0"
+				PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE"
+				RuntimeLibrary="3"
+				PrecompiledHeaderFile=".\Debug/Jpeg.pch"
+				AssemblerListingLocation=".\Debug/"
+				ObjectFile=".\Debug/"
+				ProgramDataBaseFileName=".\Debug/"
+				WarningLevel="3"
+				SuppressStartupBanner="true"
+				DebugInformationFormat="4"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG"
+				Culture="2057"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile=".\Debug\Jpeg.lib"
+				SuppressStartupBanner="true"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\Debug/Jpeg.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
 			Name="Debug|x64"
 			OutputDirectory="$(PlatformName)\$(ConfigurationName)"
 			IntermediateDirectory="$(PlatformName)\$(ConfigurationName)"
@@ -514,6 +444,79 @@
 				Name="VCBscMakeTool"
 				SuppressStartupBanner="true"
 				OutputFile=".\Debug/Jpeg.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory=".\Release"
+			IntermediateDirectory=".\Release"
+			ConfigurationType="4"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+			/>
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE"
+				StringPooling="true"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="true"
+				PrecompiledHeaderFile=".\Release/Jpeg.pch"
+				AssemblerListingLocation=".\Release/"
+				ObjectFile=".\Release/"
+				ProgramDataBaseFileName=".\Release/"
+				WarningLevel="3"
+				SuppressStartupBanner="true"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				Culture="2057"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile=".\Release\Jpeg.lib"
+				SuppressStartupBanner="true"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\Release/Jpeg.bsc"
 			/>
 			<Tool
 				Name="VCFxCopTool"
@@ -611,7 +614,23 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
+				Name="Unicode Release|x64"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
 				Name="Unicode Debug|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Unicode Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
@@ -627,35 +646,19 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Release|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Debug|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
 				Name="Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
 					PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
 				/>
 			</FileConfiguration>
 			<FileConfiguration
@@ -679,7 +682,23 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
+				Name="Unicode Release|x64"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
 				Name="Unicode Debug|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Unicode Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
@@ -695,35 +714,19 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Release|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Debug|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
 				Name="Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
 					PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
 				/>
 			</FileConfiguration>
 			<FileConfiguration
@@ -747,7 +750,23 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
+				Name="Unicode Release|x64"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
 				Name="Unicode Debug|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Unicode Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
@@ -763,35 +782,19 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Release|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Debug|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
 				Name="Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
 					PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
 				/>
 			</FileConfiguration>
 			<FileConfiguration
@@ -815,7 +818,23 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
+				Name="Unicode Release|x64"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
 				Name="Unicode Debug|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Unicode Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
@@ -831,35 +850,19 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Release|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Debug|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
 				Name="Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
 					PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
 				/>
 			</FileConfiguration>
 			<FileConfiguration
@@ -883,7 +886,23 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
+				Name="Unicode Release|x64"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
 				Name="Unicode Debug|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Unicode Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
@@ -899,35 +918,19 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Release|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Debug|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
 				Name="Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
 					PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
 				/>
 			</FileConfiguration>
 			<FileConfiguration
@@ -951,7 +954,23 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
+				Name="Unicode Release|x64"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
 				Name="Unicode Debug|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Unicode Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
@@ -967,35 +986,19 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Release|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Debug|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
 				Name="Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
 					PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
 				/>
 			</FileConfiguration>
 			<FileConfiguration
@@ -1019,7 +1022,23 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
+				Name="Unicode Release|x64"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
 				Name="Unicode Debug|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Unicode Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
@@ -1035,35 +1054,19 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Release|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Debug|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
 				Name="Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
 					PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
 				/>
 			</FileConfiguration>
 			<FileConfiguration
@@ -1087,7 +1090,23 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
+				Name="Unicode Release|x64"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
 				Name="Unicode Debug|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Unicode Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
@@ -1103,35 +1122,19 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Release|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Debug|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
 				Name="Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
 					PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
 				/>
 			</FileConfiguration>
 			<FileConfiguration
@@ -1159,7 +1162,23 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
+				Name="Unicode Release|x64"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
 				Name="Unicode Debug|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Unicode Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
@@ -1175,35 +1194,19 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Release|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Debug|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
 				Name="Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
 					PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
 				/>
 			</FileConfiguration>
 			<FileConfiguration
@@ -1227,7 +1230,23 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
+				Name="Unicode Release|x64"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
 				Name="Unicode Debug|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Unicode Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
@@ -1243,35 +1262,19 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Release|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Debug|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
 				Name="Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
 					PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
 				/>
 			</FileConfiguration>
 			<FileConfiguration
@@ -1295,7 +1298,23 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
+				Name="Unicode Release|x64"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
 				Name="Unicode Debug|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Unicode Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
@@ -1311,35 +1330,19 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Release|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Debug|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
 				Name="Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
 					PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
 				/>
 			</FileConfiguration>
 			<FileConfiguration
@@ -1363,7 +1366,23 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
+				Name="Unicode Release|x64"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
 				Name="Unicode Debug|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Unicode Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
@@ -1379,35 +1398,19 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Release|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Debug|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
 				Name="Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
 					PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
 				/>
 			</FileConfiguration>
 			<FileConfiguration
@@ -1431,7 +1434,23 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
+				Name="Unicode Release|x64"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
 				Name="Unicode Debug|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Unicode Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
@@ -1447,35 +1466,19 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Release|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Debug|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
 				Name="Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
 					PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
 				/>
 			</FileConfiguration>
 			<FileConfiguration
@@ -1503,7 +1506,23 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
+				Name="Unicode Release|x64"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
 				Name="Unicode Debug|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Unicode Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
@@ -1519,35 +1538,19 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Release|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Debug|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
 				Name="Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
 					PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
 				/>
 			</FileConfiguration>
 			<FileConfiguration
@@ -1571,7 +1574,23 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
+				Name="Unicode Release|x64"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
 				Name="Unicode Debug|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Unicode Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
@@ -1587,35 +1606,19 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Release|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Debug|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
 				Name="Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
 					PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
 				/>
 			</FileConfiguration>
 			<FileConfiguration
@@ -1639,7 +1642,23 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
+				Name="Unicode Release|x64"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
 				Name="Unicode Debug|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Unicode Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
@@ -1655,35 +1674,19 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Release|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Debug|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
 				Name="Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
 					PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
 				/>
 			</FileConfiguration>
 			<FileConfiguration
@@ -1707,7 +1710,23 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
+				Name="Unicode Release|x64"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
 				Name="Unicode Debug|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Unicode Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
@@ -1723,35 +1742,19 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Release|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Debug|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
 				Name="Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
 					PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
 				/>
 			</FileConfiguration>
 			<FileConfiguration
@@ -1775,7 +1778,23 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
+				Name="Unicode Release|x64"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
 				Name="Unicode Debug|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Unicode Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
@@ -1791,35 +1810,19 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Release|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Debug|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
 				Name="Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
 					PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
 				/>
 			</FileConfiguration>
 			<FileConfiguration
@@ -1843,7 +1846,23 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
+				Name="Unicode Release|x64"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
 				Name="Unicode Debug|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Unicode Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
@@ -1859,35 +1878,19 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Release|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Debug|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
 				Name="Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
 					PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
 				/>
 			</FileConfiguration>
 			<FileConfiguration
@@ -1911,7 +1914,23 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
+				Name="Unicode Release|x64"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
 				Name="Unicode Debug|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Unicode Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
@@ -1927,35 +1946,19 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Release|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Debug|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
 				Name="Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
 					PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
 				/>
 			</FileConfiguration>
 			<FileConfiguration
@@ -1979,7 +1982,23 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
+				Name="Unicode Release|x64"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
 				Name="Unicode Debug|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Unicode Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
@@ -1995,35 +2014,19 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Release|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Debug|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
 				Name="Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
 					PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
 				/>
 			</FileConfiguration>
 			<FileConfiguration
@@ -2047,7 +2050,23 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
+				Name="Unicode Release|x64"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
 				Name="Unicode Debug|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Unicode Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
@@ -2063,35 +2082,19 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Release|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Debug|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
 				Name="Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
 					PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
 				/>
 			</FileConfiguration>
 			<FileConfiguration
@@ -2115,7 +2118,23 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
+				Name="Unicode Release|x64"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
 				Name="Unicode Debug|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Unicode Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
@@ -2131,35 +2150,19 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Release|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Debug|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
 				Name="Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
 					PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
 				/>
 			</FileConfiguration>
 			<FileConfiguration
@@ -2183,7 +2186,23 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
+				Name="Unicode Release|x64"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
 				Name="Unicode Debug|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Unicode Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
@@ -2199,35 +2218,19 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Release|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Debug|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
 				Name="Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
 					PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
 				/>
 			</FileConfiguration>
 			<FileConfiguration
@@ -2255,7 +2258,23 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
+				Name="Unicode Release|x64"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
 				Name="Unicode Debug|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Unicode Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
@@ -2271,35 +2290,19 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Release|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Debug|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
 				Name="Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
 					PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
 				/>
 			</FileConfiguration>
 			<FileConfiguration
@@ -2323,7 +2326,23 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
+				Name="Unicode Release|x64"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
 				Name="Unicode Debug|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Unicode Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
@@ -2339,35 +2358,19 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Release|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Debug|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
 				Name="Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
 					PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
 				/>
 			</FileConfiguration>
 			<FileConfiguration
@@ -2395,7 +2398,23 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
+				Name="Unicode Release|x64"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
 				Name="Unicode Debug|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Unicode Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
@@ -2411,35 +2430,19 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Release|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Debug|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
 				Name="Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
 					PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
 				/>
 			</FileConfiguration>
 			<FileConfiguration
@@ -2463,7 +2466,23 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
+				Name="Unicode Release|x64"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
 				Name="Unicode Debug|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Unicode Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
@@ -2479,35 +2498,19 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Release|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Debug|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
 				Name="Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
 					PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
 				/>
 			</FileConfiguration>
 			<FileConfiguration
@@ -2531,7 +2534,23 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
+				Name="Unicode Release|x64"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
 				Name="Unicode Debug|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Unicode Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
@@ -2547,35 +2566,19 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Release|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Debug|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
 				Name="Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
 					PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
 				/>
 			</FileConfiguration>
 			<FileConfiguration
@@ -2599,7 +2602,23 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
+				Name="Unicode Release|x64"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
 				Name="Unicode Debug|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Unicode Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
@@ -2615,35 +2634,19 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Release|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Debug|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
 				Name="Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
 					PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
 				/>
 			</FileConfiguration>
 			<FileConfiguration
@@ -2667,7 +2670,23 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
+				Name="Unicode Release|x64"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
 				Name="Unicode Debug|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Unicode Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
@@ -2683,35 +2702,19 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Release|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Debug|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
 				Name="Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
 					PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
 				/>
 			</FileConfiguration>
 			<FileConfiguration
@@ -2735,7 +2738,23 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
+				Name="Unicode Release|x64"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
 				Name="Unicode Debug|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Unicode Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
@@ -2751,35 +2770,19 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Release|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Debug|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
 				Name="Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
 					PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
 				/>
 			</FileConfiguration>
 			<FileConfiguration
@@ -2803,7 +2806,23 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
+				Name="Unicode Release|x64"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
 				Name="Unicode Debug|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Unicode Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
@@ -2819,35 +2838,19 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Release|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Debug|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
 				Name="Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
 					PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
 				/>
 			</FileConfiguration>
 			<FileConfiguration
@@ -2871,7 +2874,23 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
+				Name="Unicode Release|x64"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
 				Name="Unicode Debug|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Unicode Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
@@ -2887,35 +2906,19 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Release|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Debug|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
 				Name="Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
 					PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
 				/>
 			</FileConfiguration>
 			<FileConfiguration
@@ -2939,7 +2942,23 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
+				Name="Unicode Release|x64"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
 				Name="Unicode Debug|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Unicode Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
@@ -2955,35 +2974,19 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Release|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Debug|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
 				Name="Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
 					PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
 				/>
 			</FileConfiguration>
 			<FileConfiguration
@@ -3011,7 +3014,23 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
+				Name="Unicode Release|x64"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
 				Name="Unicode Debug|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Unicode Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
@@ -3027,35 +3046,19 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Release|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Debug|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
 				Name="Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
 					PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
 				/>
 			</FileConfiguration>
 			<FileConfiguration
@@ -3079,7 +3082,23 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
+				Name="Unicode Release|x64"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
 				Name="Unicode Debug|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Unicode Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
@@ -3095,35 +3114,19 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Release|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Debug|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
 				Name="Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
 					PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
 				/>
 			</FileConfiguration>
 			<FileConfiguration
@@ -3147,7 +3150,23 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
+				Name="Unicode Release|x64"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
 				Name="Unicode Debug|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Unicode Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
@@ -3163,35 +3182,19 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Release|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Debug|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
 				Name="Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
 					PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
 				/>
 			</FileConfiguration>
 			<FileConfiguration
@@ -3215,7 +3218,23 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
+				Name="Unicode Release|x64"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
 				Name="Unicode Debug|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Unicode Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
@@ -3231,35 +3250,19 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Release|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Debug|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
 				Name="Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
 					PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
 				/>
 			</FileConfiguration>
 			<FileConfiguration
@@ -3283,7 +3286,23 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
+				Name="Unicode Release|x64"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
 				Name="Unicode Debug|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Unicode Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
@@ -3299,35 +3318,19 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Release|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Debug|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
 				Name="Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
 					PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
 				/>
 			</FileConfiguration>
 			<FileConfiguration
@@ -3351,7 +3354,23 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
+				Name="Unicode Release|x64"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
 				Name="Unicode Debug|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Unicode Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
@@ -3367,35 +3386,19 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Release|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Debug|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
 				Name="Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
 					PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
 				/>
 			</FileConfiguration>
 			<FileConfiguration
@@ -3423,7 +3426,23 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
+				Name="Unicode Release|x64"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
 				Name="Unicode Debug|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Unicode Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
@@ -3439,35 +3458,19 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Release|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Debug|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
 				Name="Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
 					PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
 				/>
 			</FileConfiguration>
 			<FileConfiguration
@@ -3491,7 +3494,23 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
+				Name="Unicode Release|x64"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
 				Name="Unicode Debug|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Unicode Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
@@ -3507,35 +3526,19 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Release|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Debug|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
 				Name="Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
 					PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
 				/>
 			</FileConfiguration>
 			<FileConfiguration
@@ -3575,7 +3578,23 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
+				Name="Unicode Release|x64"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
 				Name="Unicode Debug|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Unicode Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
@@ -3591,35 +3610,19 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Release|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Debug|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
 				Name="Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
 					PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
 				/>
 			</FileConfiguration>
 			<FileConfiguration
@@ -3643,7 +3646,23 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
+				Name="Unicode Release|x64"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
 				Name="Unicode Debug|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Unicode Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
@@ -3659,35 +3678,19 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Release|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Debug|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
 				Name="Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
 					PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
 				/>
 			</FileConfiguration>
 			<FileConfiguration
@@ -3711,7 +3714,23 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
+				Name="Unicode Release|x64"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
 				Name="Unicode Debug|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Unicode Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
@@ -3727,35 +3746,19 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Release|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;NDEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Unicode Debug|x64"
-				>
-				<Tool
-					Name="VCCLCompilerTool"
-					PreprocessorDefinitions="_WINDOWS;WIN32;_DEBUG;_UNICODE;UNICODE;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
 				Name="Debug|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
 					PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;$(NoInherit)"
 				/>
 			</FileConfiguration>
 			<FileConfiguration
