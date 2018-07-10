@@ -1708,7 +1708,7 @@ int32_t CxImage::DrawStringEx(HDC hdc, int32_t x, int32_t y, CXTEXTINFO *pTextTy
 	RECT pos = {0,0,0,0};
 	
     // get text length and number of lines
-    int32_t i=0, numlines=1, len=(int32_t)_tcsclen(pTextType->text);
+    int32_t i=0, numlines=1, len=(int32_t)_tcslen(pTextType->text);
     while (i<len)
     {
         if ( pTextType->text[i++]==13 )
